@@ -1,0 +1,14 @@
+{
+  "name": "sos-safety-app",
+  "version": "1.0.0",
+  "description": "SOS Safety Application with React Frontend and Node.js Backend",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "start": "node backend/server.js",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../mobile && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
